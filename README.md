@@ -1,6 +1,6 @@
 # solid-disco
 
-Многомодульное **maven** приложение (**struts** компилируется отдельно через **ant**) по работе с **Tinkoff API**.
+Многомодульное **maven** приложение (**struts** компилируется отдельно через **ant**) по работе с [Tinkoff API](https://github.com/RussianInvestments/invest-api-java-sdk).
 
 ## Структура
 
