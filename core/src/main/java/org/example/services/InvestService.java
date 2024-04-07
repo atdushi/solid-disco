@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class InvestService {
-    static String token = "";
+    static String token = System.getenv("tinkoff_token");
 
     public static List<Position> getPortfolio() {
         InvestApi api = InvestApi.createReadonly(token);

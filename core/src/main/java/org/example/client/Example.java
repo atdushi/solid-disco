@@ -8,7 +8,7 @@ public class Example {
 //    static final Logger log = LoggerFactory.getLogger(Example.class);
 //
 //    public static void main(String[] args) {
-//        var token = "";
+//        var token = System.getenv("tinkoff_token");
 //        var api = InvestApi.createReadonly(token);
 //
 //        getPortfolioExample(api);
