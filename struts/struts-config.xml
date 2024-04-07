@@ -1,0 +1,32 @@
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN"
+        "http://struts.apache.org/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+    <form-beans>
+        <form-bean name="categoryForm" type="org.example.forms.CategoryForm"/>
+    </form-beans>
+
+    <action-mappings>
+<!--        <action path="/addCategory"-->
+<!--                input="/add-new-category.jsp"-->
+<!--                name="categoryForm"-->
+<!--                type="org.example.control.AddCategoryAction"-->
+<!--                validate="true">-->
+
+<!--            <forward name="addCategorySuccessful" path="/categoryAddedSuccessfully.jsp"/>-->
+
+<!--        </action>-->
+
+        <action path="/portfolio" type="org.example.control.DisplayPortfolioAction">
+            <forward name="viewPortfolio" path="/portfolio.jsp"/>
+        </action>
+    </action-mappings>
+
+    <message-resources parameter="messages"/>
+
+    <plug-in className="org.apache.struts.validator.ValidatorPlugIn">
+        <set-property property="pathnames"
+                      value="/org/apache/struts/validator/validator-rules.xml,/WEB-INF/validator-rules.xml"/>
+    </plug-in>
+
+</struts-config>
