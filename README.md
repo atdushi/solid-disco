@@ -9,14 +9,15 @@
 ├── console
 ├── core
 ├── desktop
+├── spring-boot
 ├── struts
 └── web
 ```
 ## Ссылки
 
 * Web http://localhost:8080/mywebapp/portfolio.html
-
 * Struts http://localhost:8080/mywebapp/portfolio.do
+* Spring Boot http://localhost:8080
  
 Java version:
 - Java 1.2 uses major version 46
