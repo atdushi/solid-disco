@@ -9,6 +9,7 @@
 ├── console
 ├── core
 ├── desktop
+├── java-ee
 ├── spring-boot
 ├── struts
 └── web
@@ -18,8 +19,12 @@
 * Web http://localhost:8080/mywebapp/portfolio.html
 * Struts http://localhost:8080/mywebapp/portfolio.do
 * Spring Boot http://localhost:8080
- 
-Java version:
+* Java EE http://localhost:8080/mywebapp
+
+---
+### Примечание
+<details>
+  <summary>Java version</summary>
 - Java 1.2 uses major version 46
 - Java 1.3 uses major version 47
 - Java 1.4 uses major version 48
@@ -38,3 +43,5 @@ Java version:
 - Java 17 uses major version 61
 - Java 18 uses major version 62
 - Java 19 uses major version 63
+</details>
+
