@@ -21,7 +21,7 @@
                 <version>3.4.0</version>
 
                 <configuration>
-                    <outputDirectory>${basedir}/../tomcat8/webapps</outputDirectory>
+                    <outputDirectory>${basedir}/../Software/tomcat8/webapps</outputDirectory>
                     <warName>mywebapp</warName>
                 </configuration>
             </plugin>
