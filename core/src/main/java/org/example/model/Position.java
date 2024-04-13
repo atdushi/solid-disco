@@ -2,6 +2,7 @@ package org.example.model;
 
 import lombok.*;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 
 @Getter
@@ -9,7 +10,7 @@ import java.math.BigDecimal;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-public class Position {
+public class Position implements Serializable {
     private String figi;
     private BigDecimal quantity;
     private BigDecimal price;

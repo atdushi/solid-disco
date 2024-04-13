@@ -19,7 +19,7 @@
 * Web http://localhost:8080/mywebapp/portfolio.html
 * Struts http://localhost:8080/mywebapp/portfolio.do
 * Spring Boot http://localhost:8080
-* Java EE http://localhost:8080/mywebapp
+* Java EE http://localhost:8080/mywebapp/portfolio.jsp
 
 ---
 ### Примечание

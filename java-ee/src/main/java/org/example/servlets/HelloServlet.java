@@ -1,11 +1,12 @@
-package org.example.javaee;
+package org.example.servlets;
 
 import java.io.*;
 
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
 
-@WebServlet(name = "helloServlet", value = "/hello-servlet")
+//@WebServlet(name = "helloServlet", value = "/hello-servlet")
+@WebServlet
 public class HelloServlet extends HttpServlet {
     private String message;
 
