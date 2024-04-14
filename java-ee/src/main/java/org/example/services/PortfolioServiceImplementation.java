@@ -1,6 +1,8 @@
 package org.example.services;
 
 import jakarta.ejb.Stateless;
+import jakarta.inject.Named;
+import jakarta.jws.WebService;
 import org.example.model.Position;
 
 import java.math.BigDecimal;
@@ -8,6 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Stateless
+@WebService(name = "portfolioWebService")
 public class PortfolioServiceImplementation implements PortfolioServiceRemote {
     public List<Position> getPortfolio() {
         // test data
