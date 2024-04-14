@@ -15,15 +15,6 @@
 └── web
 ```
 
-## JMS
-<details>
-
-![](./images/connection_factories.jpg)
-
-![](./images/destination_resources.jpg)
-
-</details>
-
 ## Ссылки
 
 * Web http://localhost:8080/mywebapp/portfolio.html
@@ -32,7 +23,17 @@
 * Java EE http://localhost:8080/mywebapp/portfolio.jsf
 
 ---
-### Примечание
+### Примечания
+
+<details>
+<summary>JMS</summary>
+
+![](./images/connection_factories.jpg)
+
+![](./images/destination_resources.jpg)
+
+</details>
+
 <details>
   <summary>Java version</summary>
 - Java 1.2 uses major version 46
