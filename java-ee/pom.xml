@@ -36,8 +36,28 @@
                 <version>3.3.2</version>
 
                 <configuration>
-                    <outputDirectory>${basedir}/../Software/glassfish6/glassfish/domains/domain1/autodeploy</outputDirectory>
+                    <outputDirectory>${basedir}/../Software/glassfish6/glassfish/domains/domain1/autodeploy
+                    </outputDirectory>
                     <warName>mywebapp</warName>
+                </configuration>
+            </plugin>
+
+            <!-- генерация клиентского кода для доступа к portfolioWebService -->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>jaxws-maven-plugin</artifactId>
+                <version>2.6</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>wsimport</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <packageName>org.example.wsclient</packageName>
+                    <wsdlUrls>http://localhost:8080/PortfolioServiceImplementationService/portfolioWebService?wsdl
+                    </wsdlUrls>
                 </configuration>
             </plugin>
         </plugins>
