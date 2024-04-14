@@ -17,8 +17,11 @@
 
 ## JMS
 <details>
+
 ![](./images/connection_factories.jpg)
+
 ![](./images/destination_resources.jpg)
+
 </details>
 
 ## Ссылки
