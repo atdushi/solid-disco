@@ -14,6 +14,13 @@
 ├── struts
 └── web
 ```
+
+## JMS
+<details>
+![](./images/connection_factories.jpg)
+![](./images/destination_resources.jpg)
+</details>
+
 ## Ссылки
 
 * Web http://localhost:8080/mywebapp/portfolio.html
