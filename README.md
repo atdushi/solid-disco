@@ -19,12 +19,14 @@
 
 ## Ссылки
 
-* Web http://localhost:8080/mywebapp/portfolio.html
-* Struts http://localhost:8080/mywebapp/portfolio.do
-* Spring Boot http://localhost:8080
-* JSF http://localhost:8080/mywebapp/portfolio.jsf
-* JAX-RS http://localhost:8080/mywebapp/rest/portfolio/
-* JAX-WS http://localhost:8080/PortfolioServiceImplementationService/portfolioWebService?wsdl
+| Project | URL |
+|---------|------|
+| Web     | http://localhost:8080/mywebapp/portfolio.html |
+| Struts  | http://localhost:8080/mywebapp/portfolio.do  |
+| Spring Boot | http://localhost:8080 |
+| JSF | http://localhost:8080/mywebapp/portfolio.jsf |
+| JAX-RS | http://localhost:8080/mywebapp/rest/portfolio/ |
+| JAX-WS | http://localhost:8080/PortfolioServiceImplementationService/portfolioWebService?wsdl |
 
 ---
 ### Примечания
